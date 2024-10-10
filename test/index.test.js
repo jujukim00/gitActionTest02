@@ -5,7 +5,7 @@ const factorial = require('../src/index');
 describe('factorial function', () => { // 람다 함수
     // 테스트 케이스
     it('correctly computes factorial of a positive integer number', () => {
-        expect(factorial(3)).toEqual(6);
+        expect(factorial(3)).toEqual(6); //factoria(3)-> 결과가 6인지 검사
         expect(factorial(5)).toEqual(120);
         expect(factorial(4)).toEqual(24);
     });
